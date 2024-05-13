@@ -1,0 +1,4 @@
+<launch>
+	<node pkg = "Two_Guys" type = "action_server.py" name = "action_server" output = "screen"></node>
+	<node pkg = "Two_Guys" type = "client_server.py" name = "client_server" output = "screen"></node>
+</launch>

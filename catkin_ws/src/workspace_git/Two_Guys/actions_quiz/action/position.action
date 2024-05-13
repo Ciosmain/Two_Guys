@@ -1,0 +1,8 @@
+#goal
+int32 nr_secunde
+---
+#feedback
+string progress
+---
+#result
+string[] vector
