@@ -1,0 +1,5 @@
+<launch>
+<node pkg = "actions_test" type = "circle_action_server.py" name = "action_server_quiz" output = "screen"></node>
+<node pkg = "actions_test" type = "action_client.py" name = "action_client_quiz" output = "screen"></node>
+<node pkg = "actions_test" type="action_server.py"  name="sequential_numbers_server" output="screen"/>
+</launch>

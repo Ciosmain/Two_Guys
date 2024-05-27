@@ -1,0 +1,8 @@
+#goal
+int32 duration
+---
+#result
+string succes
+---
+#feedback
+float32 distance
